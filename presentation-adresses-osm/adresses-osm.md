@@ -1,5 +1,5 @@
 % Adresses dans OpenStreetMap
-% Jérôme (colargol) & Michel (chimel38)
+% Jérôme ([Colargol](https://www.openstreetmap.org/user/Colargol)) & Michel ([chimel38](https://www.openstreetmap.org/user/chimel38))
 % 17 avril 2023
 
 # Adresse
@@ -36,8 +36,12 @@
 
 - sur la rue
 - sur le bâtiment
-- cas des [CIDEX](https://fr.wikipedia.org/wiki/Adresse_postale#CIDEX){target="_blank"}
+- cas des [CIDEX](https://fr.wikipedia.org/wiki/Adresse_postale#CIDEX){target="_blank"}^1^
 - [Schéma de Charlieu](https://wiki.openstreetmap.org/wiki/Le_Sch%C3%A9ma_de_Charlieu_:_une_proposition_autour_des_adresses){target="_blank"}
+
+::: {.fragment .fade-up}
+^1^ *Courrier Individuel à Distribution EXceptionnelle* 
+:::
 
 ::: notes
 Il n'y a pas de consensus sur ce que représente précisément une adresse dans OSM (ni ailleurs !) et à quoi elle se rapporte, cela peut être des éléments matériels (une entrée, un portail, une maison, un immeuble, une boite aux lettres) ou des éléments fonctionnels (une parcelle, une entreprise, un foyer, un domicile, une usine...). Il n'existe donc pas de schéma 1 adresse=1 foyer ou 1 adresse=1 domicile ou 1 adresse=1 commerce... Selon le service qui les utilise, l'adresse ne renverra pas aux mêmes objets, par exemple, les Finances Publiques se servent des adresses pour rattacher des foyers fiscaux tandis qu'un service comme La Poste va rapprocher les adresses à des lieux de livraisons comme une boite aux lettres ou une porte d'entrée. 
@@ -109,7 +113,7 @@ La communauté est divisée sur l’usage de la relation. Un vote informel en 20
 
 **Base Adresse Nationale Ouverte**
 
-Initiée par OpenStreetMap France en 2014 en scrapant les adresses des planches cadastrales
+Initiée par OpenStreetMap France en 2014 en scrapant les adresses des planches cadastrales.
 
 ------------------
 
@@ -121,7 +125,7 @@ Depuis la loi 3DS de février 2022, chaque commune se doit, de créer, vérifier
 
 [Que va changer la loi 3DS pour les communes sur leurs adresses ?](https://adresse.data.gouv.fr/blog/que-va-changer-la-loi3ds-pour-les-communes-sur-leur-adresse){target="_blank"}
 
-[Démo de l'outil "mes adresses"](https://mes-adresses.data.gouv.fr/new?demo=1){target="_blank"}
+Démo de l'outil : ["mes adresses"](https://mes-adresses.data.gouv.fr/new?demo=1){target="_blank"}.
 
 
 ------------------
@@ -130,7 +134,7 @@ Depuis la loi 3DS de février 2022, chaque commune se doit, de créer, vérifier
 
 **Base Adresse Nationale**
 
-Constituée en réponse à la BANO en associant LaPoste, l’IGN, Etalab et OSM France
+Constituée en réponse à la BANO en associant LaPoste, l’IGN, Etalab et OSM France.
 
 [https://adresse.data.gouv.fr/](https://adresse.data.gouv.fr/){target="_blank"}
 
@@ -156,17 +160,17 @@ Constituée en réponse à la BANO en associant LaPoste, l’IGN, Etalab et OSM 
 
 ### Wikipedia
 
-- [Adresse Postale (WP)](https://fr.wikipedia.org/wiki/Adresse_postale)
-- [Numérotation des immeubles (WP)](https://fr.wikipedia.org/wiki/Num%C3%A9rotation_des_immeubles)
-- [Adresses wiki OSM](https://wiki.openstreetmap.org/wiki/FR:Adresses)
+- [Adresse Postale](https://fr.wikipedia.org/wiki/Adresse_postale)
+- [Numérotation des immeubles](https://fr.wikipedia.org/wiki/Num%C3%A9rotation_des_immeubles)
 
 
 ------------------
 
 ## Liens
 
-### Wiki OpenStreetMap
+### Wiki et forum OpenStreetMap
 - [BANO](https://wiki.openstreetmap.org/wiki/FR:France/Base_Adresses_Nationale_Ouverte_(BANO))
+- [Adresses](https://wiki.openstreetmap.org/wiki/FR:Adresses)
 - [Key:addr](https://wiki.openstreetmap.org/wiki/FR:Key:addr:*)
 - Relation ["associated street"](https://wiki.openstreetmap.org/wiki/FR:Relation:associatedStreet)
 - [Schéma de Charlieu](https://wiki.openstreetmap.org/wiki/Le_Sch%C3%A9ma_de_Charlieu_:_une_proposition_autour_des_adresses)
