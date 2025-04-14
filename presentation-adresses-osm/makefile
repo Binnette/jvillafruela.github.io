@@ -1,4 +1,4 @@
 all: adresses-osm.html 
 
 adresses-osm.html : adresses-osm.md
-	pandoc -t revealjs  -V theme=beige --slide-level=0 -s adresses-osm.md -o adresses-osm.html 
+	pandoc adresses-osm.md -t revealjs -s -V revealjs-url=https://unpkg.com/reveal.js@^4 -V theme=beige --slide-level=0 -o adresses-osm.html

@@ -8,8 +8,8 @@
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
-  <link rel="stylesheet" href="https://unpkg.com/reveal.js@^4//dist/reset.css">
-  <link rel="stylesheet" href="https://unpkg.com/reveal.js@^4//dist/reveal.css">
+  <link rel="stylesheet" href="https://unpkg.com/reveal.js@^4/dist/reset.css">
+  <link rel="stylesheet" href="https://unpkg.com/reveal.js@^4/dist/reveal.css">
   <style>
     .reveal .sourceCode {  /* see #7635 */
       overflow: visible;
@@ -19,15 +19,18 @@
     div.columns{display: flex; gap: min(4vw, 1.5em);}
     div.column{flex: auto; overflow-x: auto;}
     div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
-    ul.task-list{list-style: none;}
+    /* The extra [class] is a hack that increases specificity enough to
+       override a similar rule in reveal.js */
+    ul.task-list[class]{list-style: none;}
     ul.task-list li input[type="checkbox"] {
+      font-size: inherit;
       width: 0.8em;
       margin: 0 0.8em 0.2em -1.6em;
       vertical-align: middle;
     }
     .display.math{display: block; text-align: center; margin: 0.5rem auto;}
   </style>
-  <link rel="stylesheet" href="https://unpkg.com/reveal.js@^4//dist/theme/beige.css" id="theme">
+  <link rel="stylesheet" href="https://unpkg.com/reveal.js@^4/dist/theme/beige.css" id="theme">
 </head>
 <body>
   <div class="reveal">
@@ -108,29 +111,29 @@ physiques et les adresses de contact</p>
 target="_blank">Point adresse (addr:)</a></p>
 <table>
 <thead>
-<tr class="header">
+<tr>
 <th>Item</th>
 <th>Clé</th>
 </tr>
 </thead>
 <tbody>
-<tr class="odd">
+<tr>
 <td><strong>N° de rue</strong></td>
 <td>addr:housenumber</td>
 </tr>
-<tr class="even">
+<tr>
 <td><strong>Voie</strong></td>
 <td>addr:street</td>
 </tr>
-<tr class="odd">
+<tr>
 <td>Lieu-dit</td>
 <td>addr:hamlet</td>
 </tr>
-<tr class="even">
+<tr>
 <td>Code postal</td>
 <td>addr:postcode</td>
 </tr>
-<tr class="odd">
+<tr>
 <td>Commune</td>
 <td>addr:city</td>
 </tr>
@@ -149,21 +152,21 @@ href="https://wiki.openstreetmap.org/wiki/FR:Relation:associatedStreet"
 target="_blank">“associated street”</a> - Tags</p>
 <table>
 <thead>
-<tr class="header">
+<tr>
 <th>Clé</th>
 <th>Valeur</th>
 </tr>
 </thead>
 <tbody>
-<tr class="odd">
+<tr>
 <td><strong>type</strong></td>
 <td>associatedStreet</td>
 </tr>
-<tr class="even">
+<tr>
 <td><strong>name</strong></td>
 <td>Nom de rue</td>
 </tr>
-<tr class="odd">
+<tr>
 <td>addr:suburb</td>
 <td>Nom du quartier</td>
 </tr>
@@ -182,19 +185,19 @@ href="https://wiki.openstreetmap.org/wiki/FR:Relation:associatedStreet"
 target="_blank">“associated street”</a> - Membres</p>
 <table>
 <thead>
-<tr class="header">
+<tr>
 <th>Chemin/nœud</th>
 <th>Rôle</th>
 <th>Description</th>
 </tr>
 </thead>
 <tbody>
-<tr class="odd">
+<tr>
 <td>Chemin</td>
 <td>street</td>
 <td>La rue associée</td>
 </tr>
-<tr class="even">
+<tr>
 <td>Chemin/nœud</td>
 <td>house</td>
 <td>Numéros d’habitation</td>
@@ -325,12 +328,12 @@ href="https://creativecommons.org/licenses/by-sa/3.0/fr/">CC-BY-SA
     </div>
   </div>
 
-  <script src="https://unpkg.com/reveal.js@^4//dist/reveal.js"></script>
+  <script src="https://unpkg.com/reveal.js@^4/dist/reveal.js"></script>
 
   <!-- reveal.js plugins -->
-  <script src="https://unpkg.com/reveal.js@^4//plugin/notes/notes.js"></script>
-  <script src="https://unpkg.com/reveal.js@^4//plugin/search/search.js"></script>
-  <script src="https://unpkg.com/reveal.js@^4//plugin/zoom/zoom.js"></script>
+  <script src="https://unpkg.com/reveal.js@^4/plugin/notes/notes.js"></script>
+  <script src="https://unpkg.com/reveal.js@^4/plugin/search/search.js"></script>
+  <script src="https://unpkg.com/reveal.js@^4/plugin/zoom/zoom.js"></script>
 
   <script>
 
